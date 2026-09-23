@@ -7,8 +7,8 @@ noindex: false
 
 ## Responsable del tratamiento
 
-- **Titular:** Tu Nombre o Empresa S.L.
-- **Contacto:** contacto@tudominio.com
+- **Titular:** Hugo
+- **Contacto:** hugofinn2003@gmail.com
 - **Sitio web:** https://tudominio.com
 - **País:** España
 
@@ -44,7 +44,7 @@ Más información en la [Política de Privacidad de Google](https://policies.goo
 
 ## Derechos de los usuarios
 
-Puedes ejercer tus derechos de **acceso, rectificación, supresión, oposición, limitación del tratamiento y portabilidad** de tus datos escribiendo a contacto@tudominio.com, indicando el derecho que deseas ejercer y adjuntando una copia de un documento que acredite tu identidad.
+Puedes ejercer tus derechos de **acceso, rectificación, supresión, oposición, limitación del tratamiento y portabilidad** de tus datos escribiendo a hugofinn2003@gmail.com, indicando el derecho que deseas ejercer y adjuntando una copia de un documento que acredite tu identidad.
 
 ## Conservación de los datos
 

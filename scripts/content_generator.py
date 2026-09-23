@@ -77,7 +77,7 @@ Escribe SOLO el contenido de la sección "{heading}" (no repitas el título como
 
 Reglas:
 - Extensión: entre {min_words} y {max_words} palabras, en 2-4 párrafos.
-- No inventes estadísticas, cifras exactas, estudios o precios concretos que no puedas verificar. Puedes nombrar herramientas, métodos o conceptos reales y conocidos si aportan valor, pero sin inventar datos sobre ellos.
+- No inventes estadísticas, cifras exactas, porcentajes, estudios o precios concretos que no puedas verificar. Esto incluye NO inventar "casos de éxito" ni empresas (reales o genéricas) con resultados numéricos concretos (por ejemplo, "aumentó un 30% la productividad"): si el título de la sección sugiere ejemplos o casos reales, habla en términos generales ("es habitual observar...", "muchos equipos notan...") en vez de inventar un caso concreto con cifras. Puedes nombrar herramientas, métodos o conceptos reales y conocidos si aportan valor, pero sin inventar datos sobre ellos.
 - Contenido práctico y original; no repitas ideas de una introducción genérica.
 {subsection_instruction}
 

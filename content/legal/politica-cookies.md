@@ -44,6 +44,6 @@ Al navegar y continuar en Mi Web de Nicho sin modificar la configuración de tu 
 
 ## Contacto
 
-Para cualquier duda sobre esta Política de Cookies, escribe a contacto@tudominio.com.
+Para cualquier duda sobre esta Política de Cookies, escribe a hugofinn2003@gmail.com.
 
 Última actualización: 2026-09-23.
