@@ -1,0 +1,40 @@
+{% extends "base.html" %}
+{% block content %}
+<article class="post">
+  <header class="post-header">
+    <p class="post-category"><a href="/categoria/{{ post.category }}/">{{ post.category }}</a></p>
+    <h1>{{ post.title }}</h1>
+    <p class="post-meta">
+      <time datetime="{{ post.date }}">{{ post.date_display }}</time>
+      · {{ post.reading_time }} min de lectura
+    </p>
+  </header>
+
+  <div class="post-content">
+    {{ post.html_content|safe }}
+  </div>
+
+  {% if post.faq %}
+  <section class="faq" aria-labelledby="faq-heading">
+    <h2 id="faq-heading">Preguntas frecuentes</h2>
+    {% for item in post.faq %}
+    <details class="faq-item">
+      <summary>{{ item.q }}</summary>
+      <p>{{ item.a }}</p>
+    </details>
+    {% endfor %}
+  </section>
+  {% endif %}
+</article>
+
+<aside class="related">
+  <h2>Más artículos</h2>
+  <ul class="post-list">
+    {% for other in related_posts %}
+    <li>
+      <a href="/{{ other.slug }}/">{{ other.title }}</a>
+    </li>
+    {% endfor %}
+  </ul>
+</aside>
+{% endblock %}

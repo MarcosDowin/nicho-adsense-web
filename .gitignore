@@ -1,0 +1,6 @@
+.venv/
+__pycache__/
+*.pyc
+.worktree-*/
+.DS_Store
+Thumbs.db

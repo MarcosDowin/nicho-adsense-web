@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+{% block content %}
+<section class="hero">
+  <h1>{{ site_name }}</h1>
+  <p>{{ site_description }}</p>
+</section>
+
+<section class="post-grid" aria-label="Artículos recientes">
+  {% for post in posts %}
+  <article class="post-card">
+    <p class="post-category"><a href="/categoria/{{ post.category }}/">{{ post.category }}</a></p>
+    <h2><a href="/{{ post.slug }}/">{{ post.title }}</a></h2>
+    <p class="post-excerpt">{{ post.meta_description }}</p>
+    <p class="post-meta">
+      <time datetime="{{ post.date }}">{{ post.date_display }}</time>
+      · {{ post.reading_time }} min de lectura
+    </p>
+  </article>
+  {% endfor %}
+</section>
+{% endblock %}

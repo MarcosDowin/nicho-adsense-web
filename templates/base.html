@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="{{ lang }}">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{ page_title }}</title>
+<meta name="description" content="{{ meta_description }}">
+<link rel="canonical" href="{{ canonical_url }}">
+{% if noindex %}<meta name="robots" content="noindex, follow">{% endif %}
+
+<meta property="og:type" content="{{ og_type|default('website') }}">
+<meta property="og:title" content="{{ page_title }}">
+<meta property="og:description" content="{{ meta_description }}">
+<meta property="og:url" content="{{ canonical_url }}">
+<meta property="og:site_name" content="{{ site_name }}">
+<meta name="twitter:card" content="summary_large_image">
+
+<link rel="icon" href="/static/img/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="/static/css/style.css">
+
+{% if json_ld %}
+<script type="application/ld+json">{{ json_ld|safe }}</script>
+{% endif %}
+
+{% if adsense_enabled %}
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client={{ adsense_client_id }}" crossorigin="anonymous"></script>
+{% endif %}
+</head>
+<body>
+<header class="site-header">
+  <div class="wrap">
+    <a class="site-title" href="/">{{ site_name }}</a>
+    <nav class="site-nav">
+      <a href="/">Inicio</a>
+    </nav>
+  </div>
+</header>
+
+<main class="wrap">
+{% block content %}{% endblock %}
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <p>&copy; {{ current_year }} {{ site_name }}</p>
+    <nav class="footer-nav">
+      <a href="/aviso-legal/">Aviso Legal</a>
+      <a href="/politica-privacidad/">Política de Privacidad</a>
+      <a href="/politica-cookies/">Política de Cookies</a>
+    </nav>
+  </div>
+</footer>
+</body>
+</html>

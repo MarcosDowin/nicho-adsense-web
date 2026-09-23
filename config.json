@@ -1,0 +1,35 @@
+{
+  "site_name": "Mi Web de Nicho",
+  "site_description": "Guías y artículos prácticos sobre productividad y trabajo remoto.",
+  "base_url": "https://tudominio.com",
+  "language": "es",
+  "niche": "productividad y trabajo remoto",
+
+  "legal": {
+    "owner_name": "Tu Nombre o Empresa S.L.",
+    "contact_email": "contacto@tudominio.com",
+    "country": "España",
+    "city": "Madrid"
+  },
+
+  "adsense": {
+    "client_id": "ca-pub-0000000000000000",
+    "slots": {
+      "after_first_paragraph": "1111111111",
+      "mid_article": "2222222222",
+      "before_conclusion": "3333333333"
+    },
+    "enabled": false
+  },
+
+  "generation": {
+    "ollama_url": "http://localhost:11434/api/generate",
+    "ollama_model": "llama3.1:8b",
+    "min_words_per_article": 1200,
+    "temperature": 0.6,
+    "max_retries": 3
+  },
+
+  "author": "Redacción",
+  "twitter_handle": ""
+}
