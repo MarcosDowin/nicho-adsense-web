@@ -13,13 +13,13 @@
   },
 
   "adsense": {
-    "client_id": "ca-pub-0000000000000000",
+    "client_id": "ca-pub-4587876266154612",
     "slots": {
       "after_first_paragraph": "1111111111",
       "mid_article": "2222222222",
       "before_conclusion": "3333333333"
     },
-    "enabled": false
+    "enabled": true
   },
 
   "generation": {
